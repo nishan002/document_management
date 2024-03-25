@@ -13,7 +13,7 @@ class AccountAdmin(UserAdmin):
     add_fieldsets = (
     (None, {
         'classes': ('wide',),
-        'fields': ('email', 'name', 'password1', 'password2'),
+        'fields': ('email', 'name', 'password', 'confirm_password'),
     }),
 )
     filter_horizontal = ()
